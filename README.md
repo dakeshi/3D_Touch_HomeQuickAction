@@ -1,2 +1,27 @@
 # 3D_Touch_HomeQuickAction
-3D touch home quick action(dynamic quick action) example
+3D touch home quick action(dynamic quick action) Demo.
+
+- API availablitiy check
+- Handle quick action in application:didFinishLaunchingWithOptions method
+- Different rootViewcontroller depends on quick action
+
+
+# Why Dynamic Quick action?
+Static quick action has some limitations. It works immediately when the app installed. If your app has tutorial/intro pages or initial data download logic when the app launch at first time, users won't see those views with static quick action.
+
+With dynamic quick action, you can avoid these situations.
+The quick action menu will be enabled after first app launch.
+
+# How to test and debug quick action with device?
+
+1) click edit scheme and check "wait for excutable to be lanched" option :
+
+![edit scheme](https://github.com/dakeshi/3D_Touch_HomeQuickAction/resources/edit_scheme.tiff)
+
+2) set breakpoint where you want to test :
+
+![set breakpoint](https://github.com/dakeshi/3D_Touch_HomeQuickAction/resources/set_break.tiff)
+
+3) type log message and check "Automatically continue after evaluating actions" in edit breakpoint :
+
+![edit breakpoint](https://github.com/dakeshi/3D_Touch_HomeQuickAction/resources/images/2015/12/edit_break.tiff)
