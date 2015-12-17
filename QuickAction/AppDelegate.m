@@ -51,7 +51,7 @@
         }else{
             // normal app launch process without quick action
             
-            [self launchWitoutQuickAction];
+            [self launchWithoutQuickAction];
             
         }
         
@@ -59,7 +59,7 @@
         
         // Less than iOS9 or later
         
-        [self launchWitoutQuickAction];
+        [self launchWithoutQuickAction];
         
     }
     
@@ -69,7 +69,7 @@
 
 
 
--(void)launchWitoutQuickAction{
+-(void)launchWithoutQuickAction{
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
