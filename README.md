@@ -1,7 +1,7 @@
 # 3D_Touch_HomeQuickAction
 3D touch home quick action(dynamic quick action) Demo.
 
-- API availablitiy check
+- API availablity check
 - Handle quick action in application:didFinishLaunchingWithOptions method
 - Different rootViewcontroller depends on quick action
 
@@ -22,6 +22,6 @@ The quick action menu will be enabled after first app launch.
 
 ![set breakpoint](http://dakeshi.github.io/assets/images/set_break.png)
 
-3) type log message and check "Automatically continue after evaluating actions" in edit breakpoint :
+3) input log message or debugger command and check "Automatically continue after evaluating actions" in edit breakpoint :
 
 ![edit breakpoint](http://dakeshi.github.io/assets/images/edit_break.png)
