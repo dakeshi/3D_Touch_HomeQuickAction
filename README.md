@@ -16,12 +16,12 @@ The quick action menu will be enabled after first app launch.
 
 1) click edit scheme and check "wait for excutable to be lanched" option :
 
-![edit scheme](http://dakeshi.github.io/assets/images/edit_scheme.png)
+![edit scheme](https://github.com/dakeshi/3D_Touch_HomeQuickAction/blob/master/resources/edit_scheme.png)
 
 2) set breakpoint where you want to test :
 
-![set breakpoint](http://dakeshi.github.io/assets/images/set_break.png)
+![set breakpoint](https://github.com/dakeshi/3D_Touch_HomeQuickAction/blob/master/resources/set_break.png)
 
 3) input log message or debugger command and check "Automatically continue after evaluating actions" in edit breakpoint :
 
-![edit breakpoint](http://dakeshi.github.io/assets/images/edit_break.png)
+![edit breakpoint](https://github.com/dakeshi/3D_Touch_HomeQuickAction/blob/master/resources/edit_break.png)
